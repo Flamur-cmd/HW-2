@@ -19,20 +19,32 @@ Abdullah: 4/20
 
 Binomial Probability formula : 
 
-The chances of rolling a 6 five times out of 20 attempts.
+The chances of rolling a 6 exactly five times out of 20 attempts.
 
 P(X=k)=(k over n ​)⋅pk⋅(1−p)^n−k 
 
      (20
      5)  X (1/6)^5 x (5/6)^ 20-5  = 9.3% 
 
-
-The chances of rolling a 6 four times out of 20 attempts.
+The chances of rolling a 6 exactly four times out of 20 attempts.
     (20
       4)  X (1/6)^4 X (5/6)^20-4 = 21.5%
 
 
 
+The chances of rolling a 6 exactly two times out of 20 attempts.
+
+(20
+   2)  x (1/6)^2 x (5/6)^20-2 = 22.3%
+
+The chances of rolling a 6 one time out of 20 attempts 
+
+(20
+   1)  x (1/6)^1 x (5/6)^20-1 = 2.6%
+
+The results conclude that rolling a 6 once or more than five times has a much lower chance than rolling a 6 two to four times. Which makes sense as the average of rolling a 6 out of 20 times is 3.33.
+
 
 PP3: roll 100 times and specify decision rules. Some cases are easy: if every single roll comes to 6 then might quickly conclude. But what about the edge cases? Is it fair to say that every conclusion has some level of confidence attached? Where do you set boundaries for decisions? Analyze PP3. What is the chance that fair dice could be judged to be unfair?
 -When you roll a die 100 times, you typically observe the frequency of each outcome (1 through 6) and then apply decision rules to determine if the die is fair. For a fair die, each face should appear approximately equally often. The edge cases depends on how fucked up the die is, the level of confidence depends on the state of the die. Since we know a die has the probability of 1/6, the probability of getting 6 in 100 rolls is 100*1/6 so it should be about (17) 6’s that is expected. The dice can undoubtedly be considered unfair if (100) 6s are rolled. We would be able to determine if the dice are fair if they were rolled and the result was closer to the initial probability of 16.7%, which is explained by the law of large numbers.
+
