@@ -1,4 +1,4 @@
-Alicia Persad, Abdullah Al Iman, Flamur Kukaj
+Alicia Persad, Abdullah Al Iman, Flamur Kukaj and Marvin 
 Fair & Unfair Die Experiment
 
 Possible Protocol 1 (PP1): roll once; if get 6 then conclude the dice is not fair; if roll any other number then conclude it is fair. Analyze PP1: 
